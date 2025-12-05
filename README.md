@@ -70,7 +70,9 @@ warm.exe
 
 #### Java
 ```bash
-javac warm.java
+# Rename file to match class name first
+mv warm.java CpuStressTest.java
+javac CpuStressTest.java
 java CpuStressTest
 ```
 
@@ -164,7 +166,9 @@ warm.exe
 
 #### Java
 ```bash
-javac warm.java
+# Переименуйте файл в соответствии с именем класса
+mv warm.java CpuStressTest.java
+javac CpuStressTest.java
 java CpuStressTest
 ```
 
